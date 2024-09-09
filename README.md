@@ -1,2 +1,5 @@
-First-project
-Never miss your goals 
+stage ('Git Checkout') {
+  steps {
+      git branch: 'main', URL: 'https://<token>@github.com/username/repoName.git'
+     }
+  }
